@@ -22,16 +22,14 @@ JavaScript: Provides functionality for fetching data from the OpenWeather API, u
 OpenWeather API: Provides real-time weather data for the city entered by the user.
 
 #### How It Works
-Search Functionality: The user enters the name of a city into the search box and clicks the search button.
-API Request: The app makes an API request to OpenWeather using the city name and the API key. If the city name is valid, the app retrieves the weather data.
-Display Weather: The app displays the weather information, including:
-Temperature in Celsius
-Humidity percentage
-Wind speed in kilometers per hour
-Weather Icon: Based on the weather condition (e.g., Cloudy, Clear, Rainy), the app dynamically updates the weather icon to match the condition.
-Error Handling: If an invalid city is entered, the app shows an error message prompting the user to enter a valid city name.
-Setup Instructions
-To run the Weather App locally, follow these steps:
+- Search Functionality: The user enters the name of a city into the search box and clicks the search button.
+- API Request: The app makes an API request to OpenWeather using the city name and the API key. If the city name is valid, the app retrieves the weather data.
+- Display Weather: The app displays the weather information, including:
+-- Temperature in Celsius
+-- Humidity percentage
+-- Wind speed in kilometers per hour
+- Weather Icon: Based on the weather condition (e.g., Cloudy, Clear, Rainy), the app dynamically updates the weather icon to match the condition.
+- Error Handling: If an invalid city is entered, the app shows an error message prompting the user to enter a valid city name.
 
 #### Future Improvements
 Geolocation Support: Add the ability to fetch the weather data based on the user's current location using the browser's geolocation API.
